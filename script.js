@@ -1,4 +1,5 @@
 console.log("Hello World!");
+
 // 1. Create an array called favoriteFoods with at least 6 foods you love.
 let favoriteFoods = ["Ramen", "Sushi", "Tacos", "Pizza", "Falafel", "Pasta"];
 
@@ -23,6 +24,9 @@ function printFoodRecommendation(foodName) {
 printFoodRecommendation("Ramen");
 printFoodRecommendation("Sushi");
 printFoodRecommendation("Tacos");
+
+// Array for friendFavorites
+let friendFavorites = favoriteFoods;
 
 // 5. Print out only foods that have an "a" in the name from friendFavorites
 let foodsWithA = friendFavorites.filter(food => food.toLowerCase().includes("a"));
